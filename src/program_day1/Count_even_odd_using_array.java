@@ -3,6 +3,7 @@ package program_day1;
 public class Count_even_odd_using_array {
 
 	public static void main(String[] args) {
+		
 		//count of even and odd
 		int a[]= {1,2,3,4};
 		int even=0; int odd=0;
@@ -19,7 +20,8 @@ public class Count_even_odd_using_array {
 			
 			System.out.println("count of odd " + odd);
 		
-		//count of given number
+		
+			//count of given number
 		int num=12345928;
 		int count=0;
 		while(num!=0) {

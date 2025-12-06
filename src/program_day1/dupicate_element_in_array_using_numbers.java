@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class dupicate_element_in_array_using_numbers {
 
 	public static void main(String[] args) {
+		//1st method
 		int a[]= {1,2,3,2,5,6,7,8,5};
 		for(int i=0; i<a.length; i++) {
 			for(int j=i+1; j<a.length; j++) {
@@ -13,6 +14,7 @@ public class dupicate_element_in_array_using_numbers {
 				}
 			}
 		}
+		
 		//2nd method
 		int[] b= {1,2,3,3,4,5,6,7,7};
 		Arrays.sort(b);
