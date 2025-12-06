@@ -3,6 +3,7 @@ package program_day1;
 public class Reverse_string {
 
 	public static void main(String[] args) {
+		//1st method
 		String s="mom";
 		String rev="";
 		for(int i=s.length()-1; i>=0; i--) {
@@ -15,6 +16,14 @@ public class Reverse_string {
 			System.out.println("Given string is not a palindrome ");
 
 		}
+		
+		//2nd method
+		String s1="nikhil";
+		StringBuilder sb=new StringBuilder();
+		sb.append(s1);
+		sb.reverse();
+		System.out.println("Revrese the string "+sb);
+
 	}
 
 }

@@ -14,6 +14,7 @@ public class count_words_in_string {
 				count++;
 			}
 		}
+		
 		System.out.println("count of the string is "+ count);
 	}
 

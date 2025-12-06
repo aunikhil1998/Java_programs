@@ -14,6 +14,9 @@ public class Reverese_number {
 			num=num/10;
 		}
 		System.out.println("reverse number is " +rev);
+		
+		
+		
 	}
 
 }

@@ -1,5 +1,8 @@
 package program_day1;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class sum_of_given_numbers {
 
 	public static void main(String[] args) {
@@ -11,6 +14,17 @@ public class sum_of_given_numbers {
 			no=no/10;
 		}
 		System.out.println("Sum of given digit is: " +sum);
+		
+		//2nd method
+		int[] num= {1,2,3,4,5};
+		Arrays.sort(num);
+		int Sum=0;
+		for(int i=0; i<num.length; i++) {
+			if(num[i]%2==0) {
+				Sum=Sum+num[i];
+			}
+		}
+		System.out.println("Sum of given digit is: " +Sum);
 	}
 
 }

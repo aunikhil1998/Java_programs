@@ -1,5 +1,7 @@
 package program_day1;
 
+import java.util.Arrays;
+
 public class dupicate_element_in_array_using_numbers {
 
 	public static void main(String[] args) {
@@ -9,6 +11,14 @@ public class dupicate_element_in_array_using_numbers {
 				if(a[i]==a[j]) {
 					System.out.println("print duplicate numbers " +a[i]);
 				}
+			}
+		}
+		//2nd method
+		int[] b= {1,2,3,3,4,5,6,7,7};
+		Arrays.sort(b);
+		for(int i=0; i<b.length-1; i++) {
+			if(b[i]==b[i+1]) {
+				System.out.println("print duplicate numbers 2nd method " +b[i]);
 			}
 		}
 
