@@ -1,3 +1,4 @@
+
 package program_day1;
 
 public class Reverse_string {
@@ -19,8 +20,7 @@ public class Reverse_string {
 		
 		//2nd method
 		String s1="nikhil";
-		StringBuilder sb=new StringBuilder();
-		sb.append(s1);
+		StringBuilder sb=new StringBuilder(s1);
 		sb.reverse();
 		System.out.println("Revrese the string "+sb);
 

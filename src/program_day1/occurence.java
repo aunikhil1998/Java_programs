@@ -1,5 +1,6 @@
 package program_day1;
 
+import java.util.HashMap;
 import java.util.LinkedHashMap;
 
 public class occurence {
@@ -17,6 +18,8 @@ public class occurence {
 				map.put(ch, 1);
 			}
 		}
+		
+		
 		for(char key:map.keySet()) {
 			System.out.println(key+" "+map.get(key));
 		}

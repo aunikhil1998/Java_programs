@@ -14,7 +14,7 @@ public class swapping_numbers {
 		int c=30; 
 		int d=40;
 		System.out.println("before swapping " +c+" "+d);
-		 c=c+d; //30
+		 c=c+d; //30 
 		 d=c-d; //10
 		 c=c-d; //20
 		 System.out.println("After swapping " +c+" "+d);
