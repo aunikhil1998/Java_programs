@@ -19,9 +19,9 @@ public class sum_of_given_numbers {
 		int[] num= {1,2,3,4,5};
 		Arrays.sort(num);
 		int Sum=0;
-		for(int i=0; i<num.length; i++) {
-			if(num[i]%2==0) {
-				Sum=Sum+num[i];
+		for(int a:num) {
+			if(a%2==0) {
+				Sum=Sum+a;
 			}
 		}
 		System.out.println("Sum of given digit is: " +Sum);

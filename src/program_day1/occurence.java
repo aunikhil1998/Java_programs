@@ -1,12 +1,11 @@
 package program_day1;
 
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 
 public class occurence {
 
 	public static void main(String[] args) {
-		//count of occurences in a string
+		//count of occurences in a string	
 		String s="nikhil";
 		LinkedHashMap<Character, Integer> map=new LinkedHashMap<Character, Integer>();
 		for(int i=0;i<s.length();i++) {

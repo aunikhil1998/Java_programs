@@ -18,7 +18,7 @@ public class swap_string {
 			System.out.println("output " +reversed.toString());
 			
 			//2nd method
-		String st = "nikhil annigere";
+		String st = "nikhil annigere calling";
 		String[] word = st.split(" ");
 		for(int i=word.length-1;i>=0;i--) {
 			System.out.print(word[i]+" "); 

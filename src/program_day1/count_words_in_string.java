@@ -9,7 +9,7 @@ public class count_words_in_string {
 		System.out.println("Enter a string ");
 		String s=sc.nextLine();
 		int count=1;
-		for(int i=0; i<s.length()-1; i++) {
+		for(int i=0; i<s.length(); i++) {
 			if( (s.charAt(i)==' ') && (s.charAt(i+1)!=' ') ) {
 				count++;
 			}
